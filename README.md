@@ -52,7 +52,7 @@ The sample code is as follows:
 Power_loss = Python_Call_MATLAB(disconnected_line, disconnected_gen, load_shedding_matrix):
 ```
 # Extension
-This project aims at the joint operation of the three platforms(MATLAB, Python and PowerFactory DIgSILENT), and replaces the operation that would otherwise need to be manually edited with an automated program. Here, Python is the primary control, calling/controlling the operation of MATLAB and POWER from the externally. The initial focus of the example is on large-scale cascading fault analysis, and various extended applications can be developed based on this automation platform, such as:
+This project aims at the joint operation of the three platforms(MATLAB, Python and PowerFactory DIgSILENT), and replaces the operation that would otherwise need to be manually edited with an automated program. Here, Python is the primary control, calling/controlling the operation of MATLAB and PowerFactory from the externally. The initial focus of the example is on large-scale cascading fault analysis, and various extended applications can be developed based on this automation platform, such as:
 * Co-simulation of MATLAB and PowerFactory DIgSILENT：controller/control strategy can be designed in MATLAB and synchronous testing can be performed in PowerFactory DIgSILENT.
 * Analysis of economic generation dispatch: import the results of MATPOWER into PowerFactory DIgSILENT through this platform.
 
